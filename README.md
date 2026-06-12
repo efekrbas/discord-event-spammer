@@ -1,61 +1,63 @@
 # Discord Event Spam Bot
 
-This bot automatically creates events in all voice channels on your specified Discord server.
+This powerful bot automatically blasts events in all voice channels across your specified Discord server simultaneously for maximum speed.
 
-## 🚀 Installation
+## 📷 Preview
+
+*(Insert your preview image or GIF here)*
+![Preview Image](https://raw.githubusercontent.com/efekrbas/discord-event-spammer/main/preview.png)
+
+## 🚀 Features
+
+- **Super-Fast REST Mode:** Uses direct HTTP REST API calls instead of waiting for Discord Gateway, making it insanely fast.
+- **Parallel Processing:** Blasts events to all voice channels simultaneously (`Promise.all`), not one by one.
+- **Smart Rate-Limit Handling:** Automatically pauses only the affected requests when Discord rate limits are hit, keeping the rest of the spam going at full speed.
+- **Multi-Token Support:** Run multiple accounts at the exact same time without them blocking each other.
+- **Interactive CLI:** Beautiful ASCII art banner and a user-friendly terminal interface.
+
+## ⚙️ Installation
 
 1. **Install dependencies:**
 ```bash
 npm install
 ```
+*(Note: Requires Node 18+ for native fetch support, or `npm i undici` if on older versions).*
 
-2. **Setup `config.json`:**
-   - `token`: Your Discord user token (for selfbot usage)
-     - To get your token: Open Discord in your browser → F12 (Developer Tools) → Network tab → Perform any action (like sending a message) → Find a request and copy the token from the `authorization` header.
-   - `delayBetweenChannels`: Wait time between channels (in milliseconds)
-   - `delayAfterEvent`: Wait time after each event (in milliseconds)
-   - *Note: You no longer need to specify `guildId` or `eventMessage` in `config.json`, as the bot will ask for them directly in the terminal.*
-
-## 📝 Usage
-
-```bash
-npm start
+2. **Setup `tokens.txt`:**
+Create a file named `tokens.txt` in the main folder and paste your Discord tokens (one per line).
+```txt
+token1_here
+token2_here
+token3_here
 ```
 
-When you start the bot, it will:
-1. Ask you for the **Guild ID** (Server ID).
-2. Ask you for the **Event Message**.
-3. Find all voice channels in the specified server.
-4. Create an event in each channel sequentially.
-
-## ⚠️ Important Notes
-
-- This bot operates on your Discord user account (selfbot).
-- Using selfbots may be against Discord's Terms of Service.
-- The responsibility belongs entirely to the user.
-- **Never share your token or upload it to GitHub.**
-
-## 🔧 Configuration
-
-Example `config.json` file:
-
+3. **Setup `config.json` (Optional):**
+You can define your target Server ID and Event Message here.
 ```json
 {
-  "token": "your_discord_user_token_here",
-  "delayBetweenChannels": 2000,
-  "delayAfterEvent": 3000
+  "eventMessage": "discord.gg/cecen",
+  "guildId": "123456789012345678",
+  "delayBetweenChannels": 0,
+  "delayAfterEvent": 0
 }
 ```
 
-**How to get your Token:**
-1. Open Discord in your browser (Chrome/Edge).
-2. Press F12 to open Developer Tools.
-3. Go to the Network tab.
-4. Do any action in Discord (send a message, switch channels, etc.).
-5. Select a request in the Network tab.
-6. Find the `authorization` header in the Headers section.
-7. Copy the token and paste it into the `token` field in `config.json` or `tokens.txt` if using multiple accounts.
+## 📝 Usage
 
-## 📦 Dependencies
+Start the bot with:
+```bash
+node .
+```
 
-- `discord.js-selfbot-v13`: Discord selfbot library
+When you start the bot:
+1. You will be greeted with an ASCII banner.
+2. The bot will ask: `Do you want to use config.json? (y/n)`.
+3. If you say `n` (No), it will ask for the **Guild ID** and **Event Message** directly in the console.
+4. The bot will find all voice channels and blast them with events instantly!
+
+## ⚠️ Important Notes
+
+- Using selfbots and spamming APIs is against Discord's Terms of Service.
+- Your accounts (tokens) might get banned by Discord's Anti-Raid systems.
+- The responsibility belongs entirely to the user.
+- **Never share your tokens or upload them to GitHub.**

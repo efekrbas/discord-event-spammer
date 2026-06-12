@@ -34,8 +34,8 @@ token3_here
 You can define your target Server ID and Event Message here.
 ```json
 {
-  "eventMessage": "discord.gg/cecen",
-  "guildId": "123456789012345678",
+  "eventMessage": "Event Name Here",
+  "guildId": "Server ID Here",
   "delayBetweenChannels": 0,
   "delayAfterEvent": 0
 }

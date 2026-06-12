@@ -4,8 +4,7 @@ This powerful bot automatically blasts events in all voice channels across your 
 
 ## 📷 Preview
 
-*(Insert your preview image or GIF here)*
-![Preview Image](https://raw.githubusercontent.com/efekrbas/discord-event-spammer/main/preview.png)
+<img width="1534" height="899" alt="Ekran görüntüsü 2026-06-12 070629" src="https://github.com/user-attachments/assets/6d931f47-12b7-4622-9840-680e6468e238" />
 
 ## 🚀 Features
 

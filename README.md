@@ -1,4 +1,4 @@
-# Discord Event Spam Bot
+# Discord Event Spammer
 
 This powerful bot automatically blasts events in all voice channels across your specified Discord server simultaneously for maximum speed.
 

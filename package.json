@@ -1,0 +1,15 @@
+{
+  "name": "event-spam-bot",
+  "version": "1.0.0",
+  "description": "Discord ses kanallarında otomatik event açan bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "bot", "event"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.14.20"
+  }
+}

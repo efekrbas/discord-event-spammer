@@ -4,7 +4,7 @@ This powerful bot automatically blasts events in all voice channels across your 
 
 ## 📷 Preview
 
-<img width="1534" height="899" alt="Ekran görüntüsü 2026-06-12 070629" src="https://github.com/user-attachments/assets/6d931f47-12b7-4622-9840-680e6468e238" />
+<img width="1534" height="899" alt="image" src="https://github.com/user-attachments/assets/8392190a-89dd-4d08-874b-2d5cbc947a48" />
 
 ## 🚀 Features
 

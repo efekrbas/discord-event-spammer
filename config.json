@@ -1,6 +1,6 @@
 {
   "eventMessage": "",
   "guildId": " ",
-  "delayBetweenChannels": 1500,
-  "delayAfterEvent": 800
+  "delayBetweenChannels": 0,
+  "delayAfterEvent": 0
 }

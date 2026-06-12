@@ -4,7 +4,7 @@ Automatically creates and activates scheduled events in all voice and stage chan
 
 ## 📷 Preview
 
-<img width="1534" height="899" alt="image" src="https://github.com/user-attachments/assets/8392190a-89dd-4d08-874b-2d5cbc947a48" />
+<img width="1410" height="827" alt="Ekran görüntüsü 2026-06-12 161955" src="https://github.com/user-attachments/assets/356d357e-9ec2-4477-873a-e82dc9c058fd" />
 
 ## 🚀 Features
 

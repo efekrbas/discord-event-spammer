@@ -39,8 +39,8 @@ token3_here
 {
   "eventMessage": "Event Name Here",
   "guildId": "Server ID Here",
-  "delayBetweenChannels": 1500,
-  "delayAfterEvent": 800
+  "delayBetweenChannels": 0,
+  "delayAfterEvent": 0
 }
 ```
 
